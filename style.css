@@ -1,0 +1,339 @@
+/*main page*/
+
+body {
+    background-color: whitesmoke;
+    background-image: url(image/Sprinkle.svg);
+
+
+}
+
+img {
+    margin-top: -30px;
+    width: 150px;
+    color: white;
+}
+
+.namelogo {
+    font-family: 'Raleway', sans-serif;
+    margin-top: -120px;
+    margin-left: 140px;
+    color: white;
+    font-family: arial;
+
+}
+
+.list {
+    display: inline-flex;
+    float: right;
+    margin-top: -70px;
+    margin-right: 70px;
+    font-size: 20px;
+    font-family: arial;
+    text-decoration: none;
+    list-style-type: none;
+
+
+}
+
+
+
+ul {
+    color: white;
+
+}
+
+.black-header {
+    background-color: black;
+    height: 50px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    height: 100px; 
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    transition: 0.3;
+    font-size: 120%;
+
+
+}
+
+#reg {
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+}
+
+#reg:hover {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.help1,
+.help2 {
+    font-size: 500%;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.info {
+    width: 100%;
+    margin-top: 10%;
+
+}
+
+.what-is-cherry {
+    float: right;
+    font-size: 300%;
+    margin-right: 20%;
+}
+
+.discription {
+    float: right;
+    font-size: 200%;
+    font-family: arial;
+    margin-right: 10%;
+    text-align: right;
+}
+
+.robot {
+    width: 34%;
+    float: right;
+    margin-bottom: 0%;
+}
+
+.inter {
+    margin-top: 44%;
+    margin-left: 0%;
+    font-size: 200%;
+    font-family: Arial;
+    float: bottom;
+}
+
+#regis {
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#regis:hover {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 100px;
+    height: 50%;
+}
+
+.footer-text {
+    font-style: arial;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#icons {
+    display: inline-flex;
+    font-size: inherit;
+}
+
+.icons {
+    list-style: none;
+    width: 70px;
+}
+
+
+/*end of main page*/
+
+
+/*Registration forum*/
+
+
+
+
+.text-log {
+    font-size: 200%;
+    font-family: Arial;
+    font-weight: bold;
+    float: right;
+    margin-right: 100px;
+}
+
+
+.div-log {
+    width: 25%;
+    height: 200px;
+    border: none;
+    box-shadow: 2px 5px 5px black;
+    border-radius: 5px;
+    margin-right: -330px;
+    margin-top: 100px;
+    float: right;
+    padding: 10px;
+}
+
+
+.submit-login {
+    width: 320px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 120%;
+    transition: 0.3s;
+}
+
+#submit-login {
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+    transition: 0.3s;
+}
+
+#submit-login:hover {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    transition: 0.3s;
+}
+
+.fpsw {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.table {
+    width: 50%;
+    height: 700px;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    margin-left: 120px;
+    padding: 10px;
+    
+}
+
+
+
+.form-head {
+    font-size: 200%;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 300px;
+}
+
+
+#ename, #epassword {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: arial;
+    padding: 5px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+
+#fname,
+#lname,
+#email,
+#password,
+#cpassword,
+#postalcode,
+#cellnumber {
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 15px;
+}
+
+.fname,
+.lname,
+.email,
+.password,
+.cpassword,
+.postalcode,
+.cellnumber {
+    font-family: arial;
+    font-size: 20px;
+}
+
+
+.submit {
+    width: 200px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    transition: 0.3;
+    font-size: 120%;
+
+}
+
+#submit {
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#submit:hover {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    transition: 0.3s;
+}
+
+/* end of registration form */
+
+
+/* welcome */
+
+.login {
+    width: 200px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    transition: 0.3;
+    font-size: 120%;
+
+}
+
+#login {
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#login:hover {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    transition: 0.3s;
+}
+
+.success {
+    font-size: 500%;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+/* end of welcome */ 
+
+

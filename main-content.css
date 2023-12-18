@@ -1,0 +1,144 @@
+body {
+    background-color: whitesmoke;
+    background-image: url(Sprinkle.svg);
+
+
+}
+
+img {
+    margin-top: -30px;
+    width: 150px;
+    color: white;
+}
+
+.namelogo {
+    font-family: 'Raleway', sans-serif;
+    margin-top: -120px;
+    margin-left: 140px;
+    color: white;
+    font-family: arial;
+
+}
+
+.list {
+    display: inline-flex;
+    float: right;
+    margin-top: -70px;
+    margin-right: 70px;
+    font-size: 20px;
+    font-family: arial;
+    text-decoration: none;
+    list-style-type: none;
+
+
+}
+
+ul {
+    color: white;
+
+}
+
+.black-header {
+    background-color: black;
+    height: 50px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    height: 100px;
+}
+
+
+
+.a {
+    color: black;
+    font-family: arial;
+}
+
+.content-sidebar {
+    background-color:grey;
+    box-shadow: 5px 5px 5px black;
+    height: 474px;
+    width: 200px;
+    padding: 7px;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+
+button {
+    padding: 7px;
+    padding-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: arial;
+}
+
+#button {
+    background-color: grey;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#button:hover {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    transition: 0.3s;
+
+}
+
+.center-content {
+    background-color:grey;
+    box-shadow: 5px 5px 5px black;
+    height: 474px;
+    width: 81%;
+    padding: 7px;
+    padding-top: 10px;
+    border-radius: 20px;
+    float: right;
+    margin-top: -490px;
+    
+    
+}
+
+input {
+    margin-top: 356px;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(209, 208, 208);
+    font-size: 15px;
+    margin-left: 50px;
+    
+}
+
+.send-icon {
+    float: right;
+    width: 40px;
+    margin-top: 410px;
+    margin-right: 100px;
+}
+
+.alert-icon {
+    width: 40px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.respond {
+    margin-top: -350px;
+    margin-left: 70px;
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(209, 208, 208);
+    font-size: 20px;
+    float: left;
+    
+    
+}
